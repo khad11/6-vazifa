@@ -83,12 +83,29 @@ header {
 .tel {
   display: flex;
   gap: 5px;
+
+  &:hover {
+    font-size: 1.8rem;
+
+    content: "";
+    border: 1px solid rebeccapurple;
+    background-color: rebeccapurple;
+    border-radius: 10px;
+  }
 }
 .hr {
-  width: 1px;
-  height: 90px;
+  width: 0px;
+  height: 100px;
+}
+.hr-2 {
+  width: 0px;
+  height: 100px;
 }
 .hero-box {
   max-width: 400px;
   background-color: #1f1926;
+}
+.menu-all {
+  display: flex;
+  gap: 4rem;
 }

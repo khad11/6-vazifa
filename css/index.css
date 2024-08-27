@@ -1,6 +1,6 @@
 @import "./global.css";
 .sec-hero {
-  background-color: #796296;
+  background-color: #6b5782;
   height: 100%;
 }
 .hero-main img {
@@ -43,4 +43,26 @@
   padding: 5rem;
   display: flex;
   gap: 6rem;
+}
+/* responsiveligi */
+
+@media screen and (max-width: 800px) {
+  .hr {
+    display: none;
+  }
+  .header-main {
+    flex-direction: column;
+  }
+  .menu-all {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-main {
+    gap: 4rem;
+  }
+}
+@media screen and (max-width: 770px) {
+  .hero-main {
+    flex-direction: column;
+  }
 }
