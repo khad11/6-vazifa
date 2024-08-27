@@ -34,6 +34,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
+  font-family: "Afacad";
 }
 main {
   flex-grow: 1;

@@ -1,0 +1,46 @@
+@import "./global.css";
+.sec-hero {
+  background-color: #796296;
+  height: 100%;
+}
+.hero-main img {
+  border-radius: 50%;
+
+  &:hover {
+    border: 2px solid #796296;
+    width: 35px;
+    height: 35px;
+  }
+}
+.hero-left,
+.hero-right {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.right-box,
+.left-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(31, 25, 38);
+  padding: 5rem 4rem;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 13px 22px -8px rgba(31, 25, 38, 0.83);
+}
+.left-box p,
+.right-box p {
+  color: #fef6ff;
+  letter-spacing: 1px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  text-transform: capitalize;
+}
+.hero-main {
+  padding: 5rem;
+  display: flex;
+  gap: 6rem;
+}
